@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">My Portfolio</div>
+            
+            <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <div class="intro-div">
+    
+        <div class="intro">
+            <h2 class="head-1"> Reach out?</h2>
+ 
+           <p class="par-1">  I am always open to connecting with like-minded individuals and organizations to share ideas, collaborate on exciting projects, or explore new opportunities. Whether you’re looking for a developer to bring your vision to life or a partner to contribute to a meaningful initiative, feel free to reach out. Let’s work together to create innovative solutions and make a lasting impact!</p>       
+       </div>
+       <div class="img-div">
+           <img  class="abt-img1" src="images/contact.jpg" alt="home-image">
+ 
+      
+          
+       </div>
+      
+   
+       </div>
+
+       <div class="buttons">
+        <a href="projects.html" class="button">My Projects</a>
+       
+        <a href="interests.html" class="button">My interests?</a>
+       </div>
+    <main class="contact-section">
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <h2 class="highlight">Get in Touch</h2>
+                <p>Feel free to reach out through any of the following:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="Omyjay003@gmail.com">Omyjay003@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+254700123456"> +254 759 673 160</a></li>
+                    <li><strong>Location:</strong> Mombasa, Kenya</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="contact-container">
+            <form class="contact-form">
+                <h2 class="highlight">Send a Message</h2>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Type your message here..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+        
+    </main>
+
+ 
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>I am a passionate web developer with a knack for creating responsive and user-friendly websites. 
+                    With a focus on clean design and functionality, I aim to deliver high-quality digital solutions 
+                    tailored to clients' needs.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>   <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+             </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto: Omyjay003@gmail.com    ">Omyjay003@gmail.com  </a></p>
+                <p>Phone: +254 759 673 160  </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 omarmwakunyetta. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+
+<!-- JavaScript -->
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
+</script>
+</body>
+</html>

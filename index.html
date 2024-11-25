@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">My Portfolio</div>
+            
+            <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<div class="intro-div">
+    <div class="img-div">
+        <img  class="home-img" src="images/portfolio.avif" alt="home-image">
+        <h2>Omar Mwakunyetta</h2>
+   </div>
+     <div class="intro">
+        <h1 class="head-1">Welcome to My Portfolio!</h1>
+        <p>I'm a passionate web developer with a background in graphic design and UX/UI.</p>
+        
+    </div>
+    
+
+</div>
+
+<div class="buttons">
+ <a href="about.html" class="button">ABOUT ME</a>
+
+ <a href="contact.html" class="button">Reach out</a>
+</div>
+
+
+ 
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>About</h4>
+            <p>I am a passionate web developer with a knack for creating responsive and user-friendly websites. 
+                With a focus on clean design and functionality, I aim to deliver high-quality digital solutions 
+                tailored to clients' needs.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>   <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+         </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto: Omyjay003@gmail.com    ">Omyjay003@gmail.com  </a></p>
+            <p>Phone: +254 759 673 160  </p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 omarmwakunyetta. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
